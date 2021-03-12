@@ -261,11 +261,20 @@ background-color: #fbf9fb;
   z-index: 1999;
   position: absolute;
   width: 100%; }
+  .menu-a a
+  {
+   color: rgb(27, 212, 212);
+   text-shadow: 1px 1px 1px #000;
+  }
+  .menu-a a:hover
+  {
+    color: #e98b1f;
+  }
   .j{
     padding-left: 7rem;
     padding-right: 7rem; }
   .site-navbar .site-navigation.border-bottom {
-    border-bottom: 1px solid #0a0a5c !important; }
+    border-bottom: 1px solid #31cfe4 !important; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {

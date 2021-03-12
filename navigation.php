@@ -24,13 +24,13 @@
 <div class=" top">
 	<div class="container-fluid headerow">
 		<div class="row align-items-center ">
-			<div class="col-lg-9 d-none d-lg-block">
-				<a href="tel://+91 9731263208" class="small mr-3"><span class="icon-phone2 mr-2"></span> <span>+91 9731263208</span></a> 
-				<a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> <span>svj.kendra@gmail.com</span> </a> 
+			<div class="col-lg-9 ">
+				<a href="tel://+91 9731263208" class="small mr-3"><span class="icon-phone2 mr-2"></span> <span class="onsmall">+91 9731263208</span></a> 
+				<a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> <span class="onsmall">svj.kendra@gmail.com</span> </a> 
 			</div>
-			<div class="col-lg-3 text-right" style="color:red;">
+			<div class="col-lg-3 text-right float-right" >
 				<!-- <a href="login.php" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a> -->
-				<a href="#"  class="regiter "><span class="icon-users"></span> <span>Register</span></a>
+				<a href="#"  class="regiter "><span class="icon-users"></span> <span class="onsmall">Register</span></a>
 			</div>
 		</div>
 	</div>
@@ -49,16 +49,16 @@
 			<div class="ml-auto">
 				<nav class=" position-relative text-right" role="navigation">
 					<ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-						<li class="">
+						<li class="menu-a">
 							<a href="index.php" class="nav-link text-left">Home</a>
 						</li>
-						<li>
+						<li class="menu-a">
 							<a href="about.php" class="nav-link text-left">About Us</a>
 						</li>
-						<li>
+						<li class="menu-a">
 							<a href="#" class="nav-link text-left">Educational Service</a>
 						</li>
-						<li>
+						<li class="menu-a">
 							<a href="#" class="nav-link text-left">Contact</a>
 						</li>
 						<!-- <li class="has-children">

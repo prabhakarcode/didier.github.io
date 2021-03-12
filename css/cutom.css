@@ -58,6 +58,10 @@
     font-size: 1.1rem;
     max-width: 400px; }
     @media (max-width: 991.92px) {
+      .onsmall
+      {
+        visibility: hidden;
+      }
       .intro-section {
         background-size: cover;
         position: relative;
