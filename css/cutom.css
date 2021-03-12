@@ -2,7 +2,7 @@
 *Navigation**
 ***************/
 .top{
-	background: rgb(0, 0, 0);
+	
 }
 .top a{
 	color: #fff;
@@ -188,8 +188,13 @@
 }
 
 /****end search section****/
+.basic-searc
+{
+  background-color: #1286c9;
+}
 .basic-search{
-  background-image: linear-gradient(to right bottom, #c9b112, #c2ba03, #bac200, #afcb00, #a2d400, #a7d400, #abd500, #b0d500, #c5cc00, #d8c300, #e8b800, #f6ae0b);
+  
+  background-image: linear-gradient(to right bottom, #1286c9, #50d9eb, #52d8f0, #50d4e6, #52d1e7, #77f3ed, #e2a534, #eb9e2b, #f1ad19, #dd9b1f, #d3b222, #f6ae0b);
 }
 .search-section{
   background: rgb(0, 0, 0, .5);
@@ -219,8 +224,15 @@
   font-size: 3rem;
   font-family: 'Rubik', sans-serif;
 }
+.btn-getutor
+{
+  background-color: #50d9eb;
+  border-radius: 20px;
+  border: 0px;
+  padding: 6px;
+}
 .search-panel{
-  background: #fff;
+  background: rgb(221, 132, 59);
   padding: 15px;
   border-radius: 5px;
 }
