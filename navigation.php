@@ -3,11 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php include 'head_links.php'; ?>  
 	
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cutom.css">  
-	
+
 	<title>Document</title>
 </head>
 <body>
@@ -59,7 +57,7 @@
 							<a href="#" class="nav-link text-left">Educational Service</a>
 						</li>
 						<li class="menu-a">
-							<a href="#" class="nav-link text-left">Contact</a>
+							<a href="cont.php" class="nav-link text-left">Contact</a>
 						</li>
 						<!-- <li class="has-children">
 							<a href="about.php" class="nav-link text-left">About Us</a>

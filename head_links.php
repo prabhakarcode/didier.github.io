@@ -24,3 +24,4 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/cutom.css">
+<link rel="stylesheet" href="css/styling.css">

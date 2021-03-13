@@ -1,0 +1,67 @@
+/*   CONTACT US STYLE*/
+.formainstyle
+{
+  
+  padding: 30px;
+}
+.formstyle div label
+{
+  color: #f3f4f5;
+}
+.a
+{
+  color: #b3b8b9;
+}
+.contatdet
+{
+    
+}
+.mapcontact
+{
+ text-align: center;
+ justify-content: center;
+ padding: 30px auto;
+}
+.mapcontact div
+{
+    margin: 50px auto;
+    color: white;
+    text-shadow: 2px 3px 2px rgb(5, 8, 2);
+    font-size: 24px;
+}
+.mapcontact div a{
+    color:white;
+    text-shadow: 2px 3px 2px rgb(5, 8, 2);
+
+}
+.mapcontact{
+    background: url(images/bg_4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   opacity: 0.8 black;
+}
+.subbtn
+{
+    background-color: rgb(23, 241, 231);
+    padding: 10px;
+    border: 0; 
+    border-radius: 20px;
+    margin: 10px;
+}
+.firstsec
+{
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-position: c center;
+    box-shadow: 2px 2px 2px 4px rgb(235, 113, 14);
+}
+.firstsec div{
+    background-color: rgba(0,0.3,0,0.4);
+}
+.firstsec div h4{
+    color: white;
+    text-align: center;
+    margin-top:110px;
+}
