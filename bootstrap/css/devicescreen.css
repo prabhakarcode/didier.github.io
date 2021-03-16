@@ -1,0 +1,15 @@
+@media only screen and (max-device-width: 480px) 
+{
+	.sliimageservi img
+	{
+		visibility: hidden;
+	}
+	.menuscreenmobile
+	{
+		height: ;
+	}
+	.mark1
+	{
+		visibility: hidden;
+	}
+}

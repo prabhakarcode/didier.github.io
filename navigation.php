@@ -54,7 +54,7 @@
 							<a href="about.php" class="nav-link text-left">About Us</a>
 						</li>
 						<li class="menu-a">
-							<a href="#" class="nav-link text-left">Educational Service</a>
+							<a href="education.php" class="nav-link text-left">Educational Service</a>
 						</li>
 						<li class="menu-a">
 							<a href="cont.php" class="nav-link text-left">Contact</a>

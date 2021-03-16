@@ -65,3 +65,72 @@
     text-align: center;
     margin-top:110px;
 }
+/* educvation  section */
+.educationsection
+{
+    background-color:rgba(219, 94, 10, 0.972);
+    margin: 22px;
+
+    height: 60px;
+    border-radius: 30px;
+    padding: 30px auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.794);
+}
+.educationsection h4{
+    padding: 20px;
+}
+.educationsection h4 a{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.panelcontent
+{
+    
+    
+    width: 100%;
+    justify-content: center;
+    padding-left: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+.edufiurstsec
+{
+ background-image: url(images/notify-bg.jpg);
+ height: 200px;
+ background-position: center center;
+ 
+ background-repeat: no-repeat;
+ box-shadow: 2px 2px 1px 2px #fcb58b;
+ 
+}
+.edufiurstsec div 
+{
+background-color: rgba(0, 0,0,0.3);
+height:200px ;
+}
+.edufiurstsec div div{
+    justify-content: center;
+
+}
+.edufiurstsec div div h4{
+    color :#f3f4f5;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 39px;
+}
+.edustyle h1
+{
+ color: rgb(132, 239, 246);
+ text-shadow:2px 1px 2px  black ;
+ margin: 25px auto;
+}
+.bodyeducation
+{
+    background-color: #b3b8b9;
+}
+.our-services
+{
+padding-bottom: 60px;
+}
