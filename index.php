@@ -91,7 +91,7 @@
       </div>
     </div>
     <!-- end basic search -->
-
+  
     <!-- start medium search -->
     <div class="site-section medium-search">
       <div class="container">        
@@ -142,34 +142,37 @@
                         <div class="col-md-12">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label>Category</label>
-                              <select class="form-control">
-                                <option value="">Select Category</option>
-                                <option value="">Category List</option>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">Category</label>
+                              <select class="form-control" required>
+                                <option unabled  required onclick="myFunction(r)" >Select Category</option>
+                                <option onclick="myFunction(g) ">Category List</option>
+                                <option value="">KG</option>
+                                <option value="">primary</option>
+                                <option value="">high school</option>
+                                <option value="">pre_university</option>
+                                <option value="">others</option>
                               </select>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label>Subject</label>
-                              <select class="form-control">
-                                <option value="">Select Subject</option>
-                                <option value="">Subject List</option>
-                              </select>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">Subject</label>
+                              <input type="text" class="form-control" required>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label>Location</label>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">Location</label>
                               <select class="form-control">
                                 <option value="">Select Location</option>
                                 <option value="">Location List</option>
                               </select>
                             </div>
                           </div>
+                          
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label>phone number</label>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">Phone number</label>
                               <input type="tel" class="form-control">
                             </div>
                           </div>
@@ -191,6 +194,11 @@
         </section>
       </div>
     </div>
+    <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">franca</div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">belge</div>
+  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">angl</div>
+</div>
     <!-- end medium search -->
 
     <!-- searched results 
@@ -438,6 +446,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM_uULzojkkhIew706uqwf8KG
   var marker2 = new google.maps.Marker({position: mark2, label: 'A',map: map});
 }</script>
 <script src="js/vendor/jquery-2.2.4.min.js"></script>
+
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>	
       <script src="js5/bootstrap.bundle.min.js"></script>		
@@ -448,6 +457,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM_uULzojkkhIew706uqwf8KG
 			<script src="js/jquery.ajaxchimp.min.js"></script>
 			<script src="js/jquery.magnific-popup.min.js"></script>	
 			<script src="js/owl.carousel.min.js"></script>						
-			<script src="js/jquery.nice-select.mi
+			<script src="js/jquery.nice-select.mi">
+      <script src="js/jscript.js"></script>
 </body>
 </html>

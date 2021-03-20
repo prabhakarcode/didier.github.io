@@ -64,7 +64,7 @@
                     <div class="form-row formstyle">
                         <div class="form-group col-md-6">
                             
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+                            <input type="email" class="form-control" id="inputEmail4" id="validationDefault01" required placeholder="Email">
                           </div>
                         <div class="form-group col-md-6">
                             
@@ -81,11 +81,11 @@
                           
                       <div class="form-group col-md-6">
                         <label for="inputState">Profil</label>
-                        <select id="inputState" class="form-control">
+                        <select id="inputState" class="form-control" required>
                           <option selected>Choose...</option>
-                          <option>Parent</option>
-                          <option>student</option>
-                          <option>teacher</option>
+                          <option  value="parent">Parent</option>
+                          <option  value="student">student</option>
+                          <option  value="Mark">teacher</option>
                         </select>
                       </div>
                       
@@ -93,7 +93,7 @@
                         <label for="inputState">gender</label>
                         <select id="inputState" class="form-control">
                           <option selected>Choose...</option>
-                          <option>male</option>
+                          <option >male</option>
                           <option>female</option>
                           <option>other</option>
                         </select>
@@ -133,6 +133,8 @@
 
                </div>
 
+           </div>
+           <div>
            </div>
            <div class="row">
                <div class="col-md-12">

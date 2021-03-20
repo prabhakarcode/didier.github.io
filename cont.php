@@ -40,38 +40,38 @@
                     <div class="form-row formstyle">
                         <div class="form-group col-md-6">
                             
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+                            <input type="text" class="form-control" id="inputEmail4 validationCustom01" required  placeholder=" First Name">
                           </div>
                         <div class="form-group col-md-6">
                             
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Second Name">
+                            <input type="text" class="form-control" id="inputEmail4 validationCustom02" required placeholder="Second Name">
                           </div>
                       <div class="form-group col-md-6">
                         
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail4 validationCustom03" required placeholder="Email">
                       </div>
                       <div class="form-group col-md-6">
                         
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Mobile Number">
+                        <input type="text" class="form-control" id="inputPassword4 validationCustom04 "  required placeholder="Mobile Number">
                       </div>
                           
                       <div class="form-group col-md-6">
                         <label for="inputState">Profil</label>
-                        <select id="inputState" class="form-control">
+                        <select id="inputState validationCustom04" required class="form-control">
                           <option selected>Choose...</option>
-                          <option>Parent</option>
-                          <option>student</option>
-                          <option>teacher</option>
+                          <option value="parent">Parent</option>
+                          <option value="student">student</option>
+                          <option value="teacher">teacher</option>
                         </select>
                       </div>
                       
                       <div class="form-group col-md-6">
-                        <label for="inputState">gender</label>
+                        <label for="inputState validationCustom01">gender</label>
                         <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>male</option>
-                          <option>female</option>
-                          <option>other</option>
+                          <option selected disabled >Choose...</option>
+                          <option value="male">male</option>
+                          <option value="female">female</option>
+                          <option value="other">other</option>
                         </select>
                       </div>
                     
@@ -82,7 +82,12 @@
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <select id="inputState" class="form-control">
+                          <option selected disabled >Choose...</option>
+                          <option value="male">bangalore</option>
+                          <option value="female">mombai</option>
+                          <option value="other">dheli</option>
+                        </select>
                       </div>
                       <div class="form-group col-md-4">
                         <label for="inputState">State</label>
@@ -93,14 +98,14 @@
                       </div>
                       <div class="form-group col-md-2">
                         <label for="inputZip">Pin Code</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <input type="text" class="form-control" id="inputZip selected disabled " required>
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <input class="form-check-input" type="checkbox" id="gridCheck invalidCheck" required>
                         <label class="form-check-label" for="gridCheck">
-                          i agree to terms and condions
+                          i agree to terms and conditions
                         </label>
                       </div>
                     </div>
@@ -110,6 +115,7 @@
                </div>
 
            </div>
+           
            <div class="row">
                <div class="col-md-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.057805314907!2d77.63338661430491!3d13.031990917077492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae173eaf359285%3A0x140885b5b85ee969!2sSwami%20Vivekananda%20Jnana%20Kendra!5e0!3m2!1sen!2sin!4v1578248375212!5m2!1sen!2sin" width="100%" height="100" frameborder="0" style="border:0;border-radius: 15px;" allowfullscreen=""></iframe>
@@ -132,6 +138,7 @@
   <!-- .site-wrap -->
   <?php include 'script_links.php'; ?>
   <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jscript.js"></script>
 </body>
 
 </html>

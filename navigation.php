@@ -3,6 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cutom.css">
+  <link rel="stylesheet" href="css/styling.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css5/bootstrap.min.css">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
 	<?php include 'head_links.php'; ?>  
 	
 
@@ -28,7 +37,7 @@
 			</div>
 			<div class="col-lg-3 text-right float-right" >
 				<!-- <a href="login.php" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a> -->
-				<a href="#"  class="regiter "><span class="icon-users"></span> <span class="onsmall">Register</span></a>
+				<a href="cont.php"  class="regiter "><span class="icon-users"></span> <span class="onsmall">Register</span></a>
 			</div>
 		</div>
 	</div>
@@ -84,5 +93,12 @@
 		</div>
 
 	</header>
+	<script src="jquery.js"></script>
+	  <script src="js/popper.min.js"></script>		
+	  <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>	
+      <script src="js5/bootstrap.min.js"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  	
 </body>
 </html>
