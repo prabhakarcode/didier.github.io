@@ -169,6 +169,12 @@
                               </select>
                             </div>
                           </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">PIN CODE</label>
+                              <input type="number" class="form-control">
+                            </div>
+                          </div>
                           
                           <div class="col-md-12">
                             <div class="form-group">
@@ -194,11 +200,7 @@
         </section>
       </div>
     </div>
-    <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">franca</div>
-  <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">belge</div>
-  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">angl</div>
-</div>
+    
     <!-- end medium search -->
 
     <!-- searched results 

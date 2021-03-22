@@ -36,28 +36,28 @@
 
                </div>
                <div class="col-md-6 " style="background-color:rgb(255, 110, 27);">
-                <form class="formainstyle">
+                <form action="contdb.php" method="POST" name="cont" class="formainstyle">
                     <div class="form-row formstyle">
                         <div class="form-group col-md-6">
                             
-                            <input type="text" class="form-control" id="inputEmail4 validationCustom01" required  placeholder=" First Name">
+                            <input type="text" class="form-control" id="inputEmail4 validationCustom01" name="fname" required  placeholder=" First Name">
                           </div>
                         <div class="form-group col-md-6">
                             
-                            <input type="text" class="form-control" id="inputEmail4 validationCustom02" required placeholder="Second Name">
+                            <input type="text" class="form-control" id="inputEmail4 validationCustom02" name="sname"  required placeholder="Second Name">
                           </div>
                       <div class="form-group col-md-6">
                         
-                        <input type="email" class="form-control" id="inputEmail4 validationCustom03" required placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail4 validationCustom03" name="email" required placeholder="Email">
                       </div>
                       <div class="form-group col-md-6">
                         
-                        <input type="text" class="form-control" id="inputPassword4 validationCustom04 "  required placeholder="Mobile Number">
+                        <input type="text" class="form-control" id="inputPassword4 validationCustom04 "  name="mobile" required placeholder="Mobile Number">
                       </div>
                           
                       <div class="form-group col-md-6">
                         <label for="inputState">Profil</label>
-                        <select id="inputState validationCustom04" required class="form-control">
+                        <select id="inputState validationCustom04" name="profile" required class="form-control">
                           <option selected>Choose...</option>
                           <option value="parent">Parent</option>
                           <option value="student">student</option>
@@ -67,7 +67,7 @@
                       
                       <div class="form-group col-md-6">
                         <label for="inputState validationCustom01">gender</label>
-                        <select id="inputState" class="form-control">
+                        <select id="inputState" name="gender" class="form-control">
                           <option selected disabled >Choose...</option>
                           <option value="male">male</option>
                           <option value="female">female</option>
@@ -77,12 +77,12 @@
                     
                     <div class="form-group col-md-12">
                       <label for="inputAddress">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St">
                     </div>
                     <div class="form-row">
-                      <div class="form-group col-md-6">
+                      <div class="form-group col-md-5">
                         <label for="inputCity">City</label>
-                        <select id="inputState" class="form-control">
+                        <select id="inputState" name="city" class="form-control">
                           <option selected disabled >Choose...</option>
                           <option value="male">bangalore</option>
                           <option value="female">mombai</option>
@@ -91,14 +91,14 @@
                       </div>
                       <div class="form-group col-md-4">
                         <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
+                        <select id="inputState" name="state" class="form-control">
                           <option selected>Choose...</option>
                           <option>...</option>
                         </select>
                       </div>
-                      <div class="form-group col-md-2">
+                      <div class="form-group col-md-3">
                         <label for="inputZip">Pin Code</label>
-                        <input type="text" class="form-control" id="inputZip selected disabled " required>
+                        <input type="text" name="pin" class="form-control" id="inputZip selected disabled " required>
                       </div>
                     </div>
                     <div class="form-group">
@@ -109,7 +109,7 @@
                         </label>
                       </div>
                     </div>
-                    <button type="submit" class="subbtn">Sign in</button>
+                    <button name="contdata" type="submit" class="subbtn">Sign in</button>
                   </form>
 
                </div>
@@ -122,7 +122,7 @@
 
                </div>
 
-           </div></div>
+           </div></div> 
            
 
        </div> 
