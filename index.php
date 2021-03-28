@@ -110,27 +110,27 @@
               </div>
               <div class="col-md-6">
                 <div class="search-panel">
-                  <form action="" method="" class="">
+                  <form action="contdb.php" method="POST" class="" enctype="multipart/form-data">
                     <div class="col-md-12">
                       <div class="row">
                         <div class="col-md-4">
                           <div class="form-group form-check">                             
                             <label class="form-check-label checkbox-labels" for="home">
-                              <input type="checkbox" class="form-check-input" id="home" checked> <i class="fas fa-home" style=""></i> Home Tuition
+                              <input type="checkbox"  name="techno[]" value="Home Tuition" class="form-check-input" id="home" checked > <i class="fas fa-home" style=""></i> Home Tuition
                             </label>
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group form-check">
                             <label class="form-check-label checkbox-labels" for="online">
-                              <input type="checkbox" class="form-check-input" id="online"> <i class="fas fa-laptop" style=""></i> Online
+                              <input type="checkbox" name="techno[]" value="online Tuition" class="form-check-input" id="online"> <i class="fas fa-laptop" style=""></i> Online
                             </label>
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group form-check">                            
                             <label class="form-check-label checkbox-labels" for="center">
-                              <input type="checkbox" class="form-check-input" id="center"> <i class="fab fa-centercode" style=""></i> Center
+                              <input type="checkbox" name="techno[]" value="center Tuition" class="form-check-input" id="center"> <i class="fab fa-centercode" style=""></i> Center
                             </label>
                           </div>
                         </div>
@@ -143,48 +143,46 @@
                           <div class="col-md-12">
                             <div class="form-group">
                               <label style="color:white ;text-shadow:1px 1px 1px black;">Category</label>
-                              <select class="form-control" required>
-                                <option unabled  required onclick="myFunction(r)" >Select Category</option>
-                                <option onclick="myFunction(g) ">Category List</option>
-                                <option value="">KG</option>
-                                <option value="">primary</option>
-                                <option value="">high school</option>
-                                <option value="">pre_university</option>
-                                <option value="">others</option>
+                              <select class="form-control" required name="category">
+                                <option unabled  required  >Select Category</option>
+                               
+                                <option value="KG">KG</option>
+                                <option value="primary">primary</option>
+                                <option value="high school">high school</option>
+                                <option value="pre_university">pre_university</option>
+                                <option value="pre_university">others</option>
                               </select>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label style="color:white ;text-shadow:1px 1px 1px black;">Subject</label>
-                              <input type="text" class="form-control" required>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;" >Subject</label>
+                              <input type="text" class="form-control" required name="subject">
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label style="color:white ;text-shadow:1px 1px 1px black;">Location</label>
-                              <select class="form-control">
-                                <option value="">Select Location</option>
-                                <option value="">Location List</option>
-                              </select>
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">address</label>
+                              <input type="text" class="form-control" name="address">
+                              
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
                               <label style="color:white ;text-shadow:1px 1px 1px black;">PIN CODE</label>
-                              <input type="number" class="form-control">
+                              <input type="number" class="form-control" name="pin">
                             </div>
                           </div>
                           
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label style="color:white ;text-shadow:1px 1px 1px black;">Phone number</label>
-                              <input type="tel" class="form-control">
+                              <label style="color:white ;text-shadow:1px 1px 1px black;">Phone numbere</label>
+                              <input type="tel" class="form-control" name="number">
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="text-center">
-                              <button class="btn-getutor ">
+                              <button class="btn-getutor " type="submit" name="geteacher"> 
                                 <i class="fas fa-search"></i> Get quality teachers
                               </button>
                             </div>

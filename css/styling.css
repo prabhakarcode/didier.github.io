@@ -134,3 +134,584 @@ height:200px ;
 {
 padding-bottom: 60px;
 }
+
+
+/*header style */
+.clearfix
+{
+clear: both;
+}
+.sliimageservi img
+				{
+					width: 200px;
+				}
+				.sliimageservi
+				{
+					height: 50vh;
+					margin-top: 30px;
+				}
+				.addmrf
+				{
+					margin-top: 103px;
+				}
+				.texterdvd
+				{
+					padding-top: 60px;
+					
+				}
+				.texterdvd p
+				{
+					font-size: 25px;
+					color: white;
+					word-spacing: 2px;
+					line-height: 30px;
+					text-transform: capitalize;
+					font-family: 'Jura', sans-serif;
+				}
+
+
+font-family: 'Jura', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+.@media (max-width: 700)
+{
+.nav-menu li  a
+{
+	font-size: 70px;
+}
+.enu-has-children ul li 
+{
+
+}
+.sliimageservi
+{}
+}
+@media(max-width:768 );
+{
+   .menu-taggle
+   {
+   	margin: 20px;
+
+   }
+   .nav-menu-container
+   {
+   	display: block;
+   }
+   .menu-taggle:before
+   {
+   	.content: '\f0c9';
+   }
+}
+.dropdown-menu a
+{
+	display: block;
+	color: black;
+}
+ul l
+{
+	display: inline-block;
+}
+.nav-menu-container
+{
+    float:right;
+}
+.logo
+{
+    width: 200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Jura:wght@500&family=Maven+Pro&family=Montserrat:wght@100&family=Mukta:wght@200&family=Oswald:wght@200&display=swap');
+/*
+font-family: 'Jura', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Mukta', sans-serif;
+
+*/
+
+/*nav*/
+
+
+.clearfix
+{
+clear: both;
+}
+.sliimageservi img
+				{
+					width: 200px;
+				}
+				.sliimageservi
+				{
+					height: 50vh;
+					margin-top: 30px;
+				}
+				.addmrf
+				{
+					margin-top: 103px;
+				}
+				.texterdvd
+				{
+					padding-top: 60px;
+					
+				}
+				.texterdvd p
+				{
+					font-size: 25px;
+					color: white;
+					word-spacing: 2px;
+					line-height: 30px;
+					text-transform: capitalize;
+					font-family: 'Jura', sans-serif;
+				}
+
+
+font-family: 'Jura', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+.@media (max-width: 700)
+{
+.nav-menu li  a
+{
+	font-size: 70px;
+}
+.enu-has-children ul li 
+{
+
+}
+.sliimageservi
+{}
+}
+@media(max-width:768 );
+{
+   .menu-taggle
+   {
+   	margin: 20px;
+
+   }
+   .nav-menu-container
+   {
+   	display: block;
+   }
+   .menu-taggle:before
+   {
+   	.content: '\f0c9';
+   }
+}
+.dropdown-menu a
+{
+	display: block;
+	color: black;
+}
+ul l
+{
+	display: inline-block;
+}
+.dropdown-menu 
+/*endnav*/
+/* what we do*/
+.titsmo
+{
+	color: red;
+}
+.whatwedotitle h3
+{
+	font-size: 40px;
+	color: #001139;
+	text-shadow: 2px 2px 110px 2px red;
+	
+	text-transform: uppercase;
+	font-family: 'Mukta', sans-serif;
+
+}
+.todotext
+{
+	padding-top: 60px;
+}
+.todotext p
+{
+
+	text-transform: capitalize;
+	text-align: justify;
+font-family: 'Jura', sans-serif;		
+	font-weight: 12px;
+	font-size: 18px;
+
+}
+/* end what we do*/
+
+
+/*testimony*/
+.testimony
+{
+	font-size: 30px;
+	margin: 30px;
+	text-transform: uppercase;
+	font-family: 'Mukta', sans-serif;
+	color: #333339;
+}
+.star .checked
+{
+	color: red;
+}
+.imatestimony
+{
+	width: 100px;
+}
+.boxtst
+{
+	box-shadow: 1px 3px 5px #333339;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.desc h4
+{
+	color: #83cef3;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-family: 'Mukta', sans-serif;
+
+}
+/*end testimony*/
+
+
+/*heeader*/
+		
+
+.logo
+{
+	width: 200px;
+
+}
+ i : hover
+
+{
+	color: #83cef3;
+}
+/*end header*/
+
+/*start banner area*/
+.sliimageservi img
+{
+width: 300px;
+}
+.sliimageservi
+{
+height: 50vh;
+margin-top: 30px;
+}
+.addmrf
+{
+margin-top: 103px;
+}
+.texterdvd
+{
+padding-top: 60px;
+					
+}
+font-family: 'Jura', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Mukta', sans-serif;
+.texterdvd p
+{
+font-size: 25px;
+color: white;
+font-family: 'Maven Pro', sans-serif;
+word-spacing: 2px;
+}
+
+.banertitle
+{
+	font-family: 'Mukta', sans-serif;
+
+
+}
+.sliimageservi img
+{
+	width: 300px;
+}
+.sliimageservi
+{
+	height: 50vh;
+	margin-top: 30px;
+}
+/*endbanner*/
+/*start sevice*/
+.cardimg
+{
+	width: 10px;
+}
+.cardbodycss a
+{
+	background-color:#83cef3;
+	padding: 5px;
+	color: white;
+	text-transform: capitalize;
+	border-radius: 3px;
+	box-shadow: 3px 4px 4px grey;
+	font-family: 'Mukta', sans-serif;
+
+}
+.boxcard
+{
+	box-shadow: 1px 3px 7px #333339;
+}
+
+/*why us*/
+.whytext 
+{
+ color: red;
+ font-size: 33px;
+ background-color: red;
+}
+.textwhy
+{
+		
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	text-transform: capitalize;
+	text-align: justify;
+
+	
+}
+.hdwhy
+{
+	text-transform: uppercase;
+	margin: 16px auto;
+	font-family: 'Jura', sans-serif;
+
+
+}
+.getin h4
+{
+	font-family: 'Jura', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	 margin-left: 94px;
+	 color: #83cef3;
+}
+.send
+{
+	color: white;
+	background-color: #83cef3;
+	border:0;
+
+	font-size: 20px;
+	border-radius: 3px;
+	padding: 10px;
+	font-family: 'Jura', sans-serif;
+	text-transform: capitalize;
+	box-shadow: 3px 3px 8px #333339;	
+}
+.formint
+{
+	box-shadow: 1px 3px 9px #333339;
+}
+.formint input
+{
+	color: #333339;
+}
+
+
+/*start footer*/
+.footer
+{
+	background-color: #333339;
+}
+.logfooter p
+{
+	border-right: 99px;
+	padding-right: 20px;
+}
+
+.getinfooter ul
+{
+	padding-top: 20px;
+}
+.getinfooter ul li
+{
+	display: inline-block;
+	color: white;
+	padding-right: 20px;
+}
+.getinfooter ul li i
+{
+	font-size: 20px;
+
+	color: #83cef3;
+}
+.getinfooter  a
+{
+	color: grey	;
+	font-family: 'Jura', sans-serif;
+	text-transform: capitalize;	
+}
+.getinfooter 
+{
+  
+}
+.getinfooter div input
+{
+  border:none;
+  width: 170px;
+  height: 
+
+}
+
+.getinfooter h3
+{
+ 
+ font-family: 'Jura', sans-serif;
+ text-transform: uppercase;
+ font-size: 14px;
+ color: white;	
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.catego h3
+{
+font-family: 'Jura', sans-serif;
+ text-transform: uppercase;
+ font-size: 14px;
+ color: white;	
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.catego ul li 
+{
+font-family: 'Jura', sans-serif;
+font-size: 
+15px;
+text-transform: capitalize;
+}
+/*end footer*/
+/*web developement*/
+
+.webback 
+{
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+
+}
+.webback div div h2
+{
+	color: #ff0000;
+	font-size: 33px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+.webbackcol
+{
+	height: 200px;
+
+
+}
+.web-img1
+{
+  width: 100%;
+}
+.web-tit
+{
+ font-size: 35px;
+ padding-left: 10px;
+ margin-bottom: 30px;
+ font-family: 'Mukta', sans-serif;
+ text-shadow: 1px 2px 3px black;
+ color: #83cef3;
+}
+.web-parag
+{
+ font-size: 17px;
+ text-align: justify;
+ text-transform: capitalize;
+font-family: 'Jura', sans-serif;	
+
+}
+.edunow
+{
+	color: blue;
+}
+.web-paraglist ul li 
+{
+  font-size: 10px;
+  .
+  font-family: 'Mukta', sans-serif;
+  color: red;
+}
+.we-imgservc img
+{
+ height: 220px;
+}
+.web-maincard
+{
+	box-shadow: 3px 6px 8px 3px gray;
+}
+.webtextpara
+{
+text-align: justify;
+font-family: 'Archivo', sans-serif;
+font-size: 17px;
+word-spacing: -2px;
+height: 50%;
+text-transform: capitalize;
+}
+{
+font-family: 'Jura', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+}
+.CSTBUUT
+{
+	font-size: 10px;
+	text-transform: capitalize;
+}
+.web-btn
+{
+	font-size: 20px;
+	border:0;
+	background-color: #83cef3;
+	height: 40px;
+	border-radius: 80px;
+	 font-family: 'Mukta', sans-serif;
+   color: white;
+   text-transform: capitalize;
+	box-shadow: 2px 2px 2px grey; 
+}
+.allsetrow
+{
+	padding: 20px;
+}
+.webback
+{
+	background-image: url();
+}
+.textaboutweb p
+{
+	padding-left: 15px;
+	
+}
+.texul
+{
+	padding-left: 20px;
+}
+.sertitle
+{
+	color: red;
+}
