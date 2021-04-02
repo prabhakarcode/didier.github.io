@@ -25,7 +25,7 @@
   
 <body class="bodyeducation" data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
 
-<?php include 'navigation.php'; ?>  
+<?php include 'navigation.html'; ?>  
 <section>
 	<div class="container-flued edufiurstsec " style="background-image: url(images/notify-bg.jpg);">
 		<div class="row">

@@ -9,7 +9,7 @@
 
   <div class="site-wrap">
 
-    <?php include 'navigation.php'; ?>
+    <?php include 'navigation.html'; ?>
 
     
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/notify-bg.jpg')">

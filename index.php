@@ -22,7 +22,7 @@
   
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 <?php include 'head_links.php'; ?>
-<?php include 'navigation.php'; ?>
+<?php include 'navigation.html'; ?>
   <div class="site-wrap">
     
     
